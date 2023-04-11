@@ -9,21 +9,21 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setMessage(true);
-    emailjs
-      .sendForm(
-        "service_k2qawqh",
-        "template_c6rkpn6",
-        formRef.current,
-        "X7K7ebhIeOy3YwHki"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    // emailjs
+    //   .sendForm(
+    //     "service_k2qawqh",
+    //     "template_c6rkpn6",
+    //     formRef.current,
+    //     "X7K7ebhIeOy3YwHki"
+    //   )
+    //   .then(
+    //     (result) => {
+    //       console.log(result.text);
+    //     },
+    //     (error) => {
+    //       console.log(error.text);
+    //     }
+    //   );
 
     e.target.reset();
   };
