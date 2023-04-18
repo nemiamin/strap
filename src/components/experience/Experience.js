@@ -17,7 +17,7 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Truthful</h4>
+              <h4>Truthful & Trustworthy</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
@@ -30,7 +30,7 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Responsible</h4>
+              <h4>Responsible & Responsive</h4>
             </article>
             {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
