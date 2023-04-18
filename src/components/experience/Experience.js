@@ -7,7 +7,7 @@ const Experience = () => {
     <section id="experience">
       {/* <h5>The Skills I Have</h5> */}
       <h2>Our Core Values</h2>
-      <div className="container experience__container">
+      <div className=" experience__container">
         <div className="experience__frontend">
           <h3>Core Values</h3>
           <div className="experience__content">
@@ -30,7 +30,7 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Responsible & Responsive</h4>
+              <h4>Responsible</h4>
             </article>
             {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
@@ -42,7 +42,7 @@ const Experience = () => {
             </article> */}
           </div>
         </div>
-        <div className="experience__backend">
+        {/* <div className="experience__backend">
           <h3>Back-end Development</h3>
           <div className="experience__content">
             <article className="experience__details">
@@ -70,7 +70,7 @@ const Experience = () => {
               <h4>Git/GitHub</h4>
             </article>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
