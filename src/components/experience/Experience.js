@@ -13,24 +13,24 @@ const Experience = () => {
           <div className="experience__content">
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Safety oriented</h4>
+              <h5>Safety oriented</h5>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Truthful & Trustworthy</h4>
+              <h5>Truthful & Trustworthy</h5>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Accountable</h4>
+              <h5>Accountable</h5>
             </article>
 
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Proactive</h4>
+              <h5>Proactive</h5>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Responsible & Responsive</h4>
+              <h5>Responsible & Responsive</h5>
             </article>
             {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />

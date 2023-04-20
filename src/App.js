@@ -1,6 +1,7 @@
 import React from "react";
 import Contact from "./components/contact/Contact";
 import Experience from "./components/experience/Experience";
+import OurTeam from "./components/ourTeam/OurTeam";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Intro from "./components/intro/Intro";
@@ -14,6 +15,7 @@ const App = () => {
       <Header />
       <Topbar />
       <Intro />
+      <OurTeam />
       <Experience />
       <Portfolio />
       {/* <Testimonials /> */}

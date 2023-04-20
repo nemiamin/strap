@@ -16,6 +16,10 @@ header {
     gap: 1.2rem;
     margin-top: 2.5rem;
   }
+
+  .cta a {
+    font-size: 12px;
+  }
   
   .header__socials {
     display: flex;
