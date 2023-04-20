@@ -20,16 +20,16 @@ const Portfolio = () => {
       link: "https://melodic-boba-111583.netlify.app/",
       github: "https://github.com/Meri-MG/bookstore---react",
     },
-    {
-      id: 2,
-      title: "Operations",
-      img: IMG4,
-      description:
-        "FakeStore app that provides information about available products and their details",
-      technologies: "React | Redux",
-      link: "https://fakestore-metrics.netlify.app/",
-      github: "https://github.com/Meri-MG/Fakestore---react",
-    },
+    // {
+    //   id: 2,
+    //   title: "Operations",
+    //   img: IMG4,
+    //   description:
+    //     "FakeStore app that provides information about available products and their details",
+    //   technologies: "React | Redux",
+    //   link: "https://fakestore-metrics.netlify.app/",
+    //   github: "https://github.com/Meri-MG/Fakestore---react",
+    // },
     // {
     //   id: 3,
     //   title: "Other Departments",
