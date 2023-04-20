@@ -44,6 +44,7 @@ const OurTeam = () => {
               </div>
             </div>
           </div>
+
           <div class="col-sm-6 col-lg-4 col-xl-3">
             <div class="single-person">
               <div class="person-image">
@@ -61,13 +62,27 @@ const OurTeam = () => {
           <div class="col-sm-6 col-lg-4 col-xl-3">
             <div class="single-person">
               <div class="person-image">
-                <img src="/team3.jpeg" alt="" />
+                <img src="/team4.jpeg" alt="" />
                 {/* <span class="icon">
                   <i class="fab fa-js"></i>
                 </span> */}
               </div>
               <div class="person-info">
                 <h3 class="full-name">Preet Amin</h3>
+                <span class="speciality">Safety and Health Practitioner</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 m-auto">
+            <div class="single-person">
+              <div class="person-image">
+                <img src="/team5.jpeg" alt="" />
+                {/* <span class="icon">
+                  <i class="fab fa-js"></i>
+                </span> */}
+              </div>
+              <div class="person-info">
+                <h3 class="full-name">Rayla Croy</h3>
                 <span class="speciality">Safety and Health Practitioner</span>
               </div>
             </div>
