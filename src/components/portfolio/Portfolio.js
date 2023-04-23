@@ -13,7 +13,7 @@ const Portfolio = () => {
     {
       id: 1,
       title: "Health & Safety",
-      img: IMG1,
+      img: "/department1.jpeg",
       description:
         "BookStore app that allows users to store books and update progress",
       technologies: "React | Redux | Ruby on Rails",
@@ -88,7 +88,7 @@ const Portfolio = () => {
               <p>{pro.technologies}</p>
             </div>
             <div className="portfolio__item-cta">
-              <a href="#" target="_blank" className="btn" rel="noreferrer">
+              <a href="/Health and Safety.doc" target="_blank" className="btn" rel="noreferrer">
                 Download
               </a>
               {/* <a
