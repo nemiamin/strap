@@ -25,7 +25,7 @@ const OurTeam = () => {
                 </span> */}
               </div>
               <div class="person-info">
-                <h3 class="full-name">Tara Poluton</h3>
+                <h3 class="full-name">Tara Poulton</h3>
                 <span class="speciality">Safety and Health Practitioner</span>
               </div>
             </div>

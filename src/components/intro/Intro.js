@@ -12,16 +12,17 @@ const Intro = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="me" />
+            {/* <img src={ME} alt="me" /> */}
+            <img src="/logo.jpeg" alt="Sarah Nowicki" />
           </div>
         </div>
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
+            {/* <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>1 year</small>
-            </article>
+            </article> */}
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
@@ -29,14 +30,10 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            I’ve spent the last several months in a remote environment, working
-            with HTML, CSS, JavaScript, building everything from landing pages
-            to APIs. My experience as a teacher in an international school
-            helped me collaborate with fellow developers from all over the
-            world. Additionally, working with kids isn’t an easy task, however,
-            it has helped me become efficient, productive, and fast even in a
-            very stressful environment, which is an important skill in the tech
-            industry.
+            We are a group of devoted safety and health professionals at STARP who are passionate about fostering workplace safety and defending employee health. We are experts in offering a variety of services that can assist companies in creating safer and healthier working environments for their staff.
+          </p>
+          <p>
+          Occupational safety, health, and environmental management are all areas in which our team's seasoned as safety and health professionals are well-versed. We collaborate closely with our clients to identify potential risks and create practical measures to stop workplace accidents and injuries.
           </p>
           <a href="#contact" className="btn btn-primary">
             Contact Us

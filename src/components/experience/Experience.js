@@ -23,15 +23,15 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h5>Accountable</h5>
             </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h5>Proactive</h5>
-            </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h5>Responsible & Responsive</h5>
             </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h5>Proactive</h5>
+            </article>
+            
             {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>SCSS</h4>
