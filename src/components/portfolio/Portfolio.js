@@ -7,6 +7,7 @@ import IMG5 from "../../assets/news.png";
 import IMG6 from "../../assets/math.png";
 
 import "./portfolio.css";
+import PopoverDemo from "./Popover";
 
 const Portfolio = () => {
   const soloProjects = [
@@ -14,9 +15,9 @@ const Portfolio = () => {
       id: 1,
       title: "Health & Safety",
       img: "/department1.jpeg",
-      description:
-        "BookStore app that allows users to store books and update progress",
-      technologies: "React | Redux | Ruby on Rails",
+      description: "",
+      technologies:
+        "Health & Safety | OHS Policy | HazREC Policy | Emergency Preparedness | Chemical Plan | Training Policy",
       link: "https://melodic-boba-111583.netlify.app/",
       github: "https://github.com/Meri-MG/bookstore---react",
     },
@@ -73,10 +74,11 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Departments</h2>
+      <h5>Our Recent Work</h5>
+      {/* <h2>Departments</h2> */}
 
-      <div className="container portfolio__container">
+      <div className="container portfolio__container ">
+        <article className="portfolio__item2"></article>
         {soloProjects.map((pro) => (
           <article className="portfolio__item" key={pro.id}>
             <div className="portfolio__item-image">
@@ -88,17 +90,7 @@ const Portfolio = () => {
               <p>{pro.technologies}</p>
             </div>
             <div className="portfolio__item-cta">
-              <a href="/Health and Safety.doc" target="_blank" className="btn" rel="noreferrer">
-                Download
-              </a>
-              {/* <a
-                href={pro.link}
-                target="_blank"
-                className="btn btn-primary"
-                rel="noreferrer"
-              >
-                Download
-              </a> */}
+              <PopoverDemo />
             </div>
           </article>
         ))}
