@@ -8,16 +8,25 @@ import IMG6 from "../../assets/math.png";
 
 import "./portfolio.css";
 import PopoverDemo from "./Popover";
+import FormsPopover from "./FormsPopover";
 
 const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "Health & Safety",
+      title: "Health & Safety Program",
       img: "/department1.jpeg",
       description: "",
-      technologies:
-        "Health & Safety | OHS Policy | HazREC Policy | Emergency Preparedness | Chemical Plan | Training Policy",
+      technologies: "",
+      link: "https://melodic-boba-111583.netlify.app/",
+      github: "https://github.com/Meri-MG/bookstore---react",
+    },
+    {
+      id: 1,
+      title: "Forms & Templates",
+      img: "/project2.jpeg",
+      description: "",
+      technologies: "",
       link: "https://melodic-boba-111583.netlify.app/",
       github: "https://github.com/Meri-MG/bookstore---react",
     },
@@ -78,7 +87,7 @@ const Portfolio = () => {
       {/* <h2>Departments</h2> */}
 
       <div className="container portfolio__container ">
-        <article className="portfolio__item2"></article>
+        {/* <article className="portfolio__item2"></article> */}
         {soloProjects.map((pro) => (
           <article className="portfolio__item" key={pro.id}>
             <div className="portfolio__item-image">
@@ -90,7 +99,11 @@ const Portfolio = () => {
               <p>{pro.technologies}</p>
             </div>
             <div className="portfolio__item-cta">
-              <PopoverDemo />
+              {pro.title === "Forms & Templates" ? (
+                <FormsPopover />
+              ) : (
+                <PopoverDemo />
+              )}
             </div>
           </article>
         ))}

@@ -4,7 +4,7 @@ import { MixerHorizontalIcon, Cross2Icon } from "@radix-ui/react-icons";
 import { BsFillPatchCheckFill } from "react-icons/bs";
 import "./portfolio.css";
 
-const PopoverDemo = () => (
+const FormsPopover = () => (
   <Popover.Root>
     <Popover.Trigger asChild>
       <a
@@ -24,12 +24,12 @@ const PopoverDemo = () => (
         <div>
           <div className="experience__frontend">
             <div className="experience__content">
-              {/* <article className="experience__details">
+              <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
                 <a href="/Health & Safety.doc" target="_blank">
-                  Health & Safety
+                  Form 1
                 </a>
-              </article> */}
+              </article>
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
                 <a
@@ -37,7 +37,7 @@ const PopoverDemo = () => (
                   download="OHS Policy"
                   target="_blank"
                 >
-                  OHS Policy
+                  Form 2
                 </a>
               </article>
               <article className="experience__details">
@@ -47,7 +47,7 @@ const PopoverDemo = () => (
                   download="Emergency Preparedness"
                   target="_blank"
                 >
-                  Emergency Preparedness
+                  Form 3
                 </a>
               </article>
               <article className="experience__details">
@@ -57,7 +57,7 @@ const PopoverDemo = () => (
                   download="HazREC Policy"
                   target="_blank"
                 >
-                  HazREC Policy
+                  Form 4
                 </a>
               </article>
 
@@ -68,7 +68,7 @@ const PopoverDemo = () => (
                   download="Chemical Plan"
                   target="_blank"
                 >
-                  Chemical Plan
+                  Form 5
                 </a>
               </article>
               <article className="experience__details">
@@ -78,7 +78,73 @@ const PopoverDemo = () => (
                   download="Training Policy"
                   target="_blank"
                 >
-                  Training Policy
+                  Form 6
+                </a>
+              </article>
+
+              <article className="experience__details">
+                <BsFillPatchCheckFill className="experience__details-icon" />
+                <a
+                  href="/Health and Safety.doc"
+                  download="Training Policy"
+                  target="_blank"
+                >
+                  Form 7
+                </a>
+              </article>
+
+              <article className="experience__details">
+                <BsFillPatchCheckFill className="experience__details-icon" />
+                <a
+                  href="/Health and Safety.doc"
+                  download="Training Policy"
+                  target="_blank"
+                >
+                  Form 8
+                </a>
+              </article>
+
+              <article className="experience__details">
+                <BsFillPatchCheckFill className="experience__details-icon" />
+                <a
+                  href="/Health and Safety.doc"
+                  download="Training Policy"
+                  target="_blank"
+                >
+                  Form 9
+                </a>
+              </article>
+
+              <article className="experience__details">
+                <BsFillPatchCheckFill className="experience__details-icon" />
+                <a
+                  href="/Health and Safety.doc"
+                  download="Training Policy"
+                  target="_blank"
+                >
+                  Form 10
+                </a>
+              </article>
+
+              <article className="experience__details">
+                <BsFillPatchCheckFill className="experience__details-icon" />
+                <a
+                  href="/Health and Safety.doc"
+                  download="Training Policy"
+                  target="_blank"
+                >
+                  Form 11
+                </a>
+              </article>
+
+              <article className="experience__details">
+                <BsFillPatchCheckFill className="experience__details-icon" />
+                <a
+                  href="/Health and Safety.doc"
+                  download="Training Policy"
+                  target="_blank"
+                >
+                  Form 12
                 </a>
               </article>
 
@@ -99,4 +165,4 @@ const PopoverDemo = () => (
   </Popover.Root>
 );
 
-export default PopoverDemo;
+export default FormsPopover;
