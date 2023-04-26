@@ -6,7 +6,7 @@ import { FaAngellist } from "react-icons/fa";
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-      <a href="#" target="_blank" rel="noreferrer">
+      {/* <a href="#" target="_blank" rel="noreferrer">
         <BsLinkedin />
       </a>
       <a href="#" target="_blank" rel="noreferrer">
@@ -14,7 +14,7 @@ const HeaderSocials = () => {
       </a>
       <a href="#" target="_blank" rel="noreferrer">
         <FaAngellist />
-      </a>
+      </a> */}
     </div>
   );
 };
