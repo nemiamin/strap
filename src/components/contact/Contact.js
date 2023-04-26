@@ -31,7 +31,7 @@ const Contact = () => {
     <section id="contact">
       <h5>Get In Touch</h5>
       <h5>
-        I do receive your messages and will respond asap if the valid email is
+        We do receive your messages and will respond asap if the valid email is
         provided :)
       </h5>
       <h2>Contact Us</h2>
