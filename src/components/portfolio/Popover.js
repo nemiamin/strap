@@ -22,19 +22,14 @@ const PopoverDemo = () => (
             <div className="experience__content">
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
-                <a
-                  href="/Health and Safety.doc"
-                  download="OHS Policy"
-                  target="_blank"
-                >
+                <a href="/Policy/OHS Policy.doc" target="_blank">
                   OHS Policy
                 </a>
               </article>
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
                 <a
-                  href="/Health and Safety.doc"
-                  download="Emergency Preparedness"
+                  href="/Policy/Emergency Preparedness Policy.docx"
                   target="_blank"
                 >
                   Emergency Preparedness
@@ -42,36 +37,23 @@ const PopoverDemo = () => (
               </article>
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
-                <a
-                  href="/Health and Safety.doc"
-                  download="HazREC Policy"
-                  target="_blank"
-                >
+                <a href="public/Policy/HazREC Policy.docx" target="_blank">
                   HazREC Policy
                 </a>
               </article>
 
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
-                <a
-                  href="/Health and Safety.doc"
-                  download="Chemical Plan"
-                  target="_blank"
-                >
-                  Chemical Plan
+                <a href="/Policy/Chemical Prevention Plan.docx" target="_blank">
+                  Chemical Prevention Plan
                 </a>
               </article>
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
-                <a
-                  href="/Health and Safety.doc"
-                  download="Training Policy"
-                  target="_blank"
-                >
+                <a href="/Policy/Training Policy.docx" target="_blank">
                   Training Policy
                 </a>
               </article>
-              {/* <Appendices /> */}
             </div>
           </div>
         </div>
