@@ -1,6 +1,5 @@
 import React from "react";
 import * as Popover from "@radix-ui/react-popover";
-import { MixerHorizontalIcon, Cross2Icon } from "@radix-ui/react-icons";
 import { BsFillPatchCheckFill } from "react-icons/bs";
 import "./portfolio.css";
 
@@ -8,9 +7,6 @@ const FormsPopover = () => (
   <Popover.Root>
     <Popover.Trigger asChild>
       <a
-        // href="/Health and Safety.doc"
-        // target="_blank"
-        // className="btn"
         style={{
           textDecoration: "underline",
         }}
@@ -26,15 +22,14 @@ const FormsPopover = () => (
             <div className="experience__content">
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
-                <a href="/Health & Safety.doc" target="_blank">
+                <a href="/Form 1-Incident Report Form.docx" target="_blank">
                   Form 1
                 </a>
               </article>
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
                 <a
-                  href="/Health and Safety.doc"
-                  download="OHS Policy"
+                  href="/Form 2-Incident Investigation Form.docx"
                   target="_blank"
                 >
                   Form 2
@@ -43,8 +38,7 @@ const FormsPopover = () => (
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
                 <a
-                  href="/Health and Safety.doc"
-                  download="Emergency Preparedness"
+                  href="/Form 3-General Inspection Template.docx"
                   target="_blank"
                 >
                   Form 3
@@ -53,8 +47,7 @@ const FormsPopover = () => (
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
                 <a
-                  href="/Health and Safety.doc"
-                  download="HazREC Policy"
+                  href="/Form 4-Hazard Identification Report Form.docx"
                   target="_blank"
                 >
                   Form 4
@@ -64,8 +57,7 @@ const FormsPopover = () => (
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
                 <a
-                  href="/Health and Safety.doc"
-                  download="Chemical Plan"
+                  href="/Form 5-Fire Drill Evaluation Form.docx"
                   target="_blank"
                 >
                   Form 5
@@ -74,8 +66,7 @@ const FormsPopover = () => (
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
                 <a
-                  href="/Health and Safety.doc"
-                  download="Training Policy"
+                  href="/Form 6-Violence&Threat Drill Evaluation Form.docx"
                   target="_blank"
                 >
                   Form 6
@@ -85,8 +76,7 @@ const FormsPopover = () => (
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
                 <a
-                  href="/Health and Safety.doc"
-                  download="Training Policy"
+                  href="/Form 7-Chemical Risk Assessment Form.docx"
                   target="_blank"
                 >
                   Form 7
@@ -96,8 +86,7 @@ const FormsPopover = () => (
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
                 <a
-                  href="/Health and Safety.doc"
-                  download="Training Policy"
+                  href="/Form 8-PPE Pre-use Inspection Form.docx"
                   target="_blank"
                 >
                   Form 8
@@ -107,8 +96,7 @@ const FormsPopover = () => (
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
                 <a
-                  href="/Health and Safety.doc"
-                  download="Training Policy"
+                  href="/Form 9-New Worker Orientation Form.docx"
                   target="_blank"
                 >
                   Form 9
@@ -118,8 +106,7 @@ const FormsPopover = () => (
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
                 <a
-                  href="/Health and Safety.doc"
-                  download="Training Policy"
+                  href="/Form 10-Contractor Safety Orientation Form.docx"
                   target="_blank"
                 >
                   Form 10
@@ -129,8 +116,7 @@ const FormsPopover = () => (
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
                 <a
-                  href="/Health and Safety.doc"
-                  download="Training Policy"
+                  href="/Form 11-Training Completion Form.docx"
                   target="_blank"
                 >
                   Form 11
@@ -139,23 +125,20 @@ const FormsPopover = () => (
 
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
-                <a
-                  href="/Health and Safety.doc"
-                  download="Training Policy"
-                  target="_blank"
-                >
-                  Form 12
+                <a href="/Template 1-Risk Matrix.xls" target="_blank">
+                  Template 1
                 </a>
               </article>
 
-              {/* <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>SCSS</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Tailwind</h4>
-            </article> */}
+              <article className="experience__details">
+                <BsFillPatchCheckFill className="experience__details-icon" />
+                <a
+                  href="/Template 2-Emergency Vul Assessment Tool.xls"
+                  target="_blank"
+                >
+                  Template 2
+                </a>
+              </article>
             </div>
           </div>
         </div>

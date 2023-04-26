@@ -3,17 +3,19 @@ import * as Popover from "@radix-ui/react-popover";
 import { BsFillPatchCheckFill } from "react-icons/bs";
 import "./portfolio.css";
 
-const PopoverDemo = () => (
+const Appendices = () => (
   <Popover.Root>
     <Popover.Trigger asChild>
-      <a
-        style={{
-          textDecoration: "underline",
-        }}
-        rel="noreferrer"
-      >
-        Download
-      </a>
+      <article className="experience__details">
+        <a
+          style={{
+            textDecoration: "underline",
+          }}
+          rel="noreferrer"
+        >
+          Appendices
+        </a>
+      </article>
     </Popover.Trigger>
     <Popover.Portal>
       <Popover.Content className="PopoverContent" sideOffset={5}>
@@ -23,55 +25,73 @@ const PopoverDemo = () => (
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
                 <a
-                  href="/Health and Safety.doc"
-                  download="OHS Policy"
+                  href="/Appendices/Appendix A-Definitions.doc"
                   target="_blank"
                 >
-                  OHS Policy
+                  Appendix A
                 </a>
               </article>
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
                 <a
-                  href="/Health and Safety.doc"
-                  download="Emergency Preparedness"
+                  href="/Appendices/Appendix B-Program Components.doc"
                   target="_blank"
                 >
-                  Emergency Preparedness
+                  Appendix B
                 </a>
               </article>
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
                 <a
-                  href="/Health and Safety.doc"
-                  download="HazREC Policy"
+                  href="/Appendices/Appendix C-Training Matrix.xlsx"
                   target="_blank"
                 >
-                  HazREC Policy
+                  Appendix C
                 </a>
               </article>
 
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
                 <a
-                  href="/Health and Safety.doc"
-                  download="Chemical Plan"
+                  href="/Appendices/Appendix D-Record Retention.pdf"
                   target="_blank"
                 >
-                  Chemical Plan
+                  Appendix D
+                </a>
+              </article>
+              <article className="experience__details">
+                <BsFillPatchCheckFill className="experience__details-icon" />
+                <a href="/Appendices/Appendix E-KPIs.docx" target="_blank">
+                  Appendix E
                 </a>
               </article>
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience__details-icon" />
                 <a
-                  href="/Health and Safety.doc"
-                  download="Training Policy"
+                  href="/Appendices/Appendix G-Workers checklist.doc"
                   target="_blank"
                 >
-                  Training Policy
+                  Appendix G
                 </a>
               </article>
-              {/* <Appendices /> */}
+              <article className="experience__details">
+                <BsFillPatchCheckFill className="experience__details-icon" />
+                <a
+                  href="/Appendices/Appendix H-Inspection kit component.docx"
+                  target="_blank"
+                >
+                  Appendix H
+                </a>
+              </article>
+              <article className="experience__details">
+                <BsFillPatchCheckFill className="experience__details-icon" />
+                <a
+                  href="/Appendices/Appendix I-Fire Extinguishers.jpg"
+                  target="_blank"
+                >
+                  Appendix I
+                </a>
+              </article>
             </div>
           </div>
         </div>
@@ -81,4 +101,4 @@ const PopoverDemo = () => (
   </Popover.Root>
 );
 
-export default PopoverDemo;
+export default Appendices;
