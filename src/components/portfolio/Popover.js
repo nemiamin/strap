@@ -40,7 +40,7 @@ const PopoverDemo = () => {
                 </article>
                 <article className="experience__details">
                   <BsFillPatchCheckFill className="experience__details-icon" />
-                  <a href="public/Policy/HazREC Policy.docx" target="_blank">
+                  <a href="/Policy/HazREC Policy.docx" target="_blank">
                     {t("portfolio.policy3")}
                   </a>
                 </article>
