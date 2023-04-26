@@ -7,6 +7,7 @@ import { I18nextProvider } from "react-i18next";
 import i18next from "i18next";
 import common_en from "./translations/en/common.json";
 import common_spa from "./translations/spa/common.json";
+import common_fil from "./translations/fil/common.json";
 
 i18next.init({
   interpolation: { escapeValue: false }, // React already does escaping
@@ -19,6 +20,9 @@ i18next.init({
     },
     spa: {
       common: common_spa, // 'common' is our custom namespace
+    },
+    fil: {
+      common: common_fil, // 'common' is our custom namespace
     },
   },
 });

@@ -1,0 +1,86 @@
+{
+  "welcome": {
+    "title": "Hello Kami na",
+    "companyName": "STARP",
+    "scrollDown": "Mag-scroll pababa",
+    "contactUsBtn": "Makipag-ugnayan sa amin"
+  },
+  "intro": {
+    "getToKnow": "Kilalanin",
+    "aboutUs": "Tungkol sa atin",
+    "projects": "Mga proyekto",
+    "projectsCompleted": "20+ Nakumpletong Proyekto",
+    "aboutUsDesc": "Kami ay isang grupo ng mga tapat na propesyonal sa kaligtasan at kalusugan sa STARP na masigasig sa pagpapaunlad ng kaligtasan sa lugar ng trabaho at pagtatanggol sa kalusugan ng empleyado. Kami ay mga dalubhasa sa pag-aalok ng iba't ibang serbisyo na maaaring makatulong sa mga kumpanya sa paglikha ng mas ligtas at malusog na kapaligiran sa pagtatrabaho para sa kanilang mga tauhan.",
+    "aboutUsDesc2": "Ang kaligtasan sa trabaho, kalusugan, at pamamahala sa kapaligiran ay lahat ng mga lugar kung saan ang aming koponan ay may karanasan bilang mga propesyonal sa kaligtasan at kalusugan. Mahigpit kaming nakikipagtulungan sa aming mga kliyente upang matukoy ang mga potensyal na panganib at lumikha ng mga praktikal na hakbang upang ihinto ang mga aksidente at pinsala sa lugar ng trabaho."
+  },
+  "ourTeam": {
+    "ourTeam": "Ang aming koponan",
+    "letsMeet": "Magkita-kita tayo sa mga miyembro ng ating team",
+    "team1": "Tara Poulton",
+    "team2": "Ayodeji Falade",
+    "team3": "Sarah Nowicki",
+    "team4": "Preet Amin",
+    "team5": "Rayla Croy",
+    "occupation": "Practitioner sa Kaligtasan at Kalusugan"
+  },
+  "ourValues": {
+    "ourCoreValues": "Ang Aming Mga Pangunahing Halaga",
+    "coreValues": "Mahalagang pag-uugali",
+    "safetyOriented": "Nakatuon sa kaligtasan",
+    "truthful": "Tapat at Mapagkakatiwalaan",
+    "accountable": "Pananagutan",
+    "responsible": "Responsable at Tumutugon",
+    "proactive": "Proactive"
+  },
+  "portfolio": {
+    "workTitle1": "Programang Pangkalusugan at Kaligtasan",
+    "workTitle2": "Mga Form at Template",
+    "recentWork": "Ang Aming Kamakailang Trabaho",
+    "downloadBtn": "I-download",
+    "form1": "Form 1",
+    "form2": "Form 2",
+    "form3": "Form 3",
+    "form4": "Form 4",
+    "form5": "Form 5",
+    "form6": "Form 6",
+    "form7": "Form 7",
+    "form8": "Form 8",
+    "form9": "Form 9",
+    "form10": "Form 10",
+    "form11": "Form 11",
+    "template1": "Template 1",
+    "template2": "Template 2",
+    "policy1": "OHS Policy",
+    "policy2": "Mahalagang paghahanda",
+    "policy3": "HazREC Policy",
+    "policy4": "Plano sa Pag-iwas sa Kemikal",
+    "policy5": "Patakaran sa Pagsasanay",
+    "policy6": "Kabuuang Pagtantya ng Gastos",
+    "appendices": "Mga Appendice",
+    "appendix1": "Appendix A",
+    "appendix2": "Appendix B",
+    "appendix3": "Appendix C",
+    "appendix4": "Appendix D",
+    "appendix5": "Appendix E",
+    "appendix6": "Appendix G",
+    "appendix7": "Appendix H",
+    "appendix8": "Appendix I"
+  },
+  "contact": {
+    "getInTouch": "Makipag-ugnayan",
+    "contactSubTitle": "Natatanggap namin ang iyong mga mensahe at tutugon kami sa lalong madaling panahon kung ang wastong email ay ibinigay :)",
+    "email": "Email",
+    "companyEmail": "starp@gmail.com",
+    "sendMsg": "Magpadala ng mensahe",
+    "fullName": "Buong pangalan",
+    "yourMsg": "Mensahe mo",
+    "sendAMsg": "Magpadala ng Mensahe",
+    "thankYouMsg": "Salamat, sasagutin ko ASAP :)"
+  },
+  "footer": {
+    "home": "Bahay",
+    "about": "Tungkol sa",
+    "departments": "Aming trabaho",
+    "contact": "Makipag-ugnayan"
+  }
+}

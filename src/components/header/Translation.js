@@ -10,7 +10,9 @@ const Translation = () => {
   React.useEffect(() => {
     const lang = localStorage.getItem("language");
     if (lang) {
-      setLang(lang === "en" ? "English" : "Spanish");
+      setLang(
+        lang === "en" ? "English" : lang === "fil" ? "Filipino" : "Spanish"
+      );
     }
   }, []);
   return (
@@ -54,6 +56,19 @@ const Translation = () => {
                     style={{ cursor: "pointer" }}
                   >
                     Spanish
+                  </a>
+                </article>
+                <article className="experience__details">
+                  {/* <BsFillPatchCheckFill className="experience__details-icon" /> */}
+                  <a
+                    onClick={() => {
+                      i18n.changeLanguage("fil");
+                      localStorage.setItem("language", "fil");
+                      setLang("Filipino");
+                    }}
+                    style={{ cursor: "pointer" }}
+                  >
+                    Filipino
                   </a>
                 </article>
               </div>
