@@ -1,34 +1,32 @@
 import React from "react";
-import { BsLinkedin } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
-import { FaAngellist } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
+// import { BsLinkedin } from "react-icons/bs";
+// import { FaGithub } from "react-icons/fa";
+// import { FaAngellist } from "react-icons/fa";
 import "./footer.css";
 
 const Footer = () => {
+  const { t } = useTranslation("common");
   return (
     <footer>
       <a href="#home" className="footer__logo">
-        STARP
+        {t("welcome.companyName")}
       </a>
       <ul className="permalinks">
         <li>
-          <a href="#home">Home</a>
+          <a href="#home">{t("footer.home")}</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about">{t("footer.about")}</a>
         </li>
-        {/* <li>
-          <a href="#experience">Skills</a>
-        </li> */}
         <li>
-          <a href="#portfolio">Departments</a>
+          <a href="#portfolio">{t("footer.departments")}</a>
         </li>
-        {/* <li><a href="#testimonials">Testimonials</a></li> */}
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">{t("footer.contact")}</a>
         </li>
       </ul>
-      <div className="footer__socials">
+      {/* <div className="footer__socials">
         <a href="#" rel="noreferrer">
           <BsLinkedin />
         </a>
@@ -38,27 +36,8 @@ const Footer = () => {
         <a href="#" rel="noreferrer">
           <FaAngellist />
         </a>
-        {/* <a
-          href="https://www.linkedin.com/in/meri-gogichashvili/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <BsLinkedin />
-        </a>
-        <a href="https://github.com/Meri-MG" target="_blank" rel="noreferrer">
-          <FaGithub />
-        </a>
-        <a
-          href="https://angel.co/u/meri-gogichashvili"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaAngellist />
-        </a> */}
-      </div>
-      <div className="footer__copyright">
-        {/* <small>&copy; ET 2022. All rights reserved.</small> */}
-      </div>
+      </div> */}
+      <div className="footer__copyright"></div>
     </footer>
   );
 };

@@ -1,0 +1,86 @@
+{
+  "welcome": {
+    "title": "Hola nosotras",
+    "companyName": "STARP",
+    "scrollDown": "Desplazarse hacia abajo",
+    "contactUsBtn": "Contacta con nosotros"
+  },
+  "intro": {
+    "getToKnow": "Llegar a saber",
+    "aboutUs": "Sobre nosotros",
+    "projects": "Proyectos",
+    "projectsCompleted": "Más de 20 proyectos completados",
+    "aboutUsDesc": "Somos un grupo de profesionales dedicados a la seguridad y la salud en STARP apasionados por fomentar la seguridad en el lugar de trabajo y defender la salud de los empleados. Somos expertos en ofrecer una variedad de servicios que pueden ayudar a las empresas a crear entornos de trabajo más seguros y saludables para su personal.",
+    "aboutUsDesc2": "La seguridad, la salud en el trabajo y la gestión ambiental son áreas en las que nuestro equipo de profesionales experimentados en seguridad y salud está bien versado. Colaboramos estrechamente con nuestros clientes para identificar los riesgos potenciales y crear medidas prácticas para detener los accidentes y lesiones en el lugar de trabajo."
+  },
+  "ourTeam": {
+    "ourTeam": "Nuestro equipo",
+    "letsMeet": "Reunámonos con los miembros de nuestro equipo.",
+    "team1": "Tara Poulton",
+    "team2": "Ayodeji Falade",
+    "team3": "Sarah Nowicki",
+    "team4": "Preet Amin",
+    "team5": "Rayla Croy",
+    "occupation": "Practicante de seguridad y salud"
+  },
+  "ourValues": {
+    "ourCoreValues": "Nuestros valores fundamentales",
+    "coreValues": "Valores fundamentales",
+    "safetyOriented": "Orientado a la seguridad",
+    "truthful": "Veraz y Confiable",
+    "accountable": "Responsable",
+    "responsible": "Responsable y receptivo",
+    "proactive": "Proactivo"
+  },
+  "portfolio": {
+    "workTitle1": "Programa de Salud y Seguridad",
+    "workTitle2": "Formularios y plantillas",
+    "recentWork": "Nuestro trabajo reciente",
+    "downloadBtn": "Descargar",
+    "form1": "Form 1",
+    "form2": "Form 2",
+    "form3": "Form 3",
+    "form4": "Form 4",
+    "form5": "Form 5",
+    "form6": "Form 6",
+    "form7": "Form 7",
+    "form8": "Form 8",
+    "form9": "Form 9",
+    "form10": "Form 10",
+    "form11": "Form 11",
+    "template1": "Template 1",
+    "template2": "Template 2",
+    "policy1": "OHS Policy",
+    "policy2": "Emergency Preparedness",
+    "policy3": "HazREC Policy",
+    "policy4": "Plan de Prevención Química",
+    "policy5": "Política de formación",
+    "policy6": "Estimación del costo total",
+    "appendices": "Apéndices",
+    "appendix1": "Appendix A",
+    "appendix2": "Appendix B",
+    "appendix3": "Appendix C",
+    "appendix4": "Appendix D",
+    "appendix5": "Appendix E",
+    "appendix6": "Appendix G",
+    "appendix7": "Appendix H",
+    "appendix8": "Appendix I"
+  },
+  "contact": {
+    "getInTouch": "Ponerse en contacto",
+    "contactSubTitle": "Recibimos sus mensajes y responderemos lo antes posible si se proporciona el correo electrónico válido :)",
+    "email": "Correo electrónico",
+    "companyEmail": "starp@gmail.com",
+    "sendMsg": "Enviar un mensaje",
+    "fullName": "Nombre completo",
+    "yourMsg": "Tu mensaje",
+    "sendAMsg": "Enviar mensaje",
+    "thankYouMsg": "Gracias, responderé lo antes posible. :)"
+  },
+  "footer": {
+    "home": "Hogar",
+    "about": "Acerca de",
+    "departments": "Nuestro trabajo",
+    "contact": "Contacto"
+  }
+}

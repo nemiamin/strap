@@ -1,76 +1,39 @@
 import React from "react";
 import { BsFillPatchCheckFill } from "react-icons/bs";
+import { useTranslation } from "react-i18next";
 import "./experience.css";
 
 const Experience = () => {
+  const { t } = useTranslation("common");
   return (
     <section id="experience">
-      {/* <h5>The Skills I Have</h5> */}
-      <h2>Our Core Values</h2>
+      <h2>{t("ourValues.ourCoreValues")}</h2>
       <div className=" experience__container">
         <div className="experience__frontend">
-          <h3>Core Values</h3>
+          <h3>{t("ourValues.coreValues")}</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h5>Safety oriented</h5>
+              <h5>{t("ourValues.safetyOriented")}</h5>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h5>Truthful & Trustworthy</h5>
+              <h5>{t("ourValues.truthful")}</h5>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h5>Accountable</h5>
+              <h5>{t("ourValues.accountable")}</h5>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h5>Responsible & Responsive</h5>
+              <h5>{t("ourValues.responsible")}</h5>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h5>Proactive</h5>
+              <h5>{t("ourValues.proactive")}</h5>
             </article>
-            
-            {/* <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>SCSS</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Tailwind</h4>
-            </article> */}
           </div>
         </div>
-        {/* <div className="experience__backend">
-          <h3>Back-end Development</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Ruby</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Ruby on Rails</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>PostgreSQL</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Swagger</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>RSpec</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Git/GitHub</h4>
-            </article>
-          </div>
-        </div> */}
       </div>
     </section>
   );

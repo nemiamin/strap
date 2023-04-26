@@ -1,15 +1,12 @@
 import React from "react";
-import CV from "../../assets/cv_meri_gogichashvili.pdf";
+import { useTranslation } from "react-i18next";
 
 const CTA = () => {
+  const { t } = useTranslation("common");
   return (
     <div className="cta">
-      {/* <a href={CV} download className="btn">
-        Download Report
-      </a> */}
       <a href="#contact" className="btn btn-primary">
-        {/* Let's talk */}
-        Contact Us
+        {t("welcome.contactUsBtn")}
       </a>
     </div>
   );
